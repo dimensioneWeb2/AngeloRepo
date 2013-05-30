@@ -10,6 +10,17 @@ body {
     width: 100%;
 }
 
-.container{
-    background-color: #333333
+#container{
+    background-color: #ccc;
+}
+
+
+#inner_container{
+    width: 960px;
+    
+}
+
+#header{
+    width: 950px;
+    margin: 0 5px 0 5px;
 }
