@@ -1,0 +1,15 @@
+/* 
+    Document   : style
+    Created on : 30-mag-2013, 14.18.23
+    Author     : charlie
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body { 
+    width: 100%;
+}
+
+.container{
+    background-color: #333333
+}
