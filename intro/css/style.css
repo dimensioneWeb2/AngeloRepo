@@ -8,19 +8,62 @@
 
 body { 
     width: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
 }
 
 #container{
+    width: 100%;
     background-color: #ccc;
+    height: 500px;
+
+
 }
 
 
 #inner_container{
     width: 960px;
+    background-color: red;
+    height: 400px;
+    margin: 0 auto;
+
     
 }
 
 #header{
-    width: 950px;
+    width: 940px;
     margin: 0 5px 0 5px;
+    background-color: #ccc;
+    height: 105px;
+    margin: 0 auto;
+}
+
+#container #logo img{
+    float: left;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+#logo{
+    
+   width: 160px;
+   display: block;
+
+}
+
+#logo_label{
+display: block;
+    
+}
+
+#logo_label1{
+    font-size: xx-large;
+    color: #000080;
+    font-weight: bold;
+    padding-top: 30px;
+    
 }

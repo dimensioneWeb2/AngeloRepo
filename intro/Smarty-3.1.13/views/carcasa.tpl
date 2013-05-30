@@ -3,7 +3,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>carcasa</title>
-        <link rel="stylesheet" type="text/css" href="../../css/style.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
    
@@ -12,7 +13,16 @@
             <div id="inner_container">
                 
                 <div id="header">
-                
+          
+                    <div id = logo>
+                     <img src="imageintro/logo_sx.gif"/> 
+                     <img src="imageintro/logo_central.gif"/> 
+                     <img src="imageintro/logo_dx.gif"/>
+                    </div>
+                    <div id = logo_label>
+                        <div id="logo_label1"> Consulenza Amica </div>
+                    </div>
+                    
                 </div>
             
             </div>
