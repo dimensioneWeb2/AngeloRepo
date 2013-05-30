@@ -4,7 +4,7 @@
     <head>
         <title>carcasa</title>
         
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
     <body>
    
@@ -14,16 +14,44 @@
                 
                 <div id="header">
           
-                    <div id = logo>
-                     <img src="imageintro/logo_sx.gif"/> 
-                     <img src="imageintro/logo_central.gif"/> 
-                     <img src="imageintro/logo_dx.gif"/>
+                    <div id = "logo">
+                        <img src="imageintro/logo_sx.gif" alt="logo_sx"/> 
+                        <img src="imageintro/logo_central.gif" alt="logo_centrale"/> 
+                        <img src="imageintro/logo_dx.gif" alt="logo_dx"/>
                     </div>
-                    <div id = logo_label>
-                        <div id="logo_label1"> Consulenza Amica </div>
+                    <div id = "logo_label">
+                        <div id="logo_label_1"> Consulenza Amica </div>
+                        <div id="logo_label_2"> Consulenza per le innovazioni tecnologiche.</div>
                     </div>
                     
                 </div>
+                
+                <div id="inner_inner_container">
+                
+                    <div id="left_content">
+                    
+                    </div>
+                    
+                    <div id="right_content"> 
+                       <div class="menu_div">
+                            <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Chi siamo</a></li>
+                            <li><a href="#">Contattami</a></li>
+                            <li><a href="#">Dove siamo</a></li>
+                            <li id="active"><a id="areaRis_link" href="#">Area Riservata</a>
+                                <ul>
+                            <li><a href="#">Board intro</a></li>
+                            <li><a href="#">Gestione utenti</a></li>
+                            </ul>
+                            </li>
+                            </ul>
+                      </div>
+                    </div>
+                    
+                    
+                </div>
+                
             
             </div>
 

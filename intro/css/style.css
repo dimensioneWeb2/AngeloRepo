@@ -24,7 +24,7 @@ body {
 
 #inner_container{
     width: 960px;
-    background-color: red;
+    background-color: #fff;
     height: 400px;
     margin: 0 auto;
 
@@ -34,7 +34,7 @@ body {
 #header{
     width: 940px;
     margin: 0 5px 0 5px;
-    background-color: #ccc;
+    background-color: #fff;
     height: 105px;
     margin: 0 auto;
 }
@@ -60,10 +60,97 @@ display: block;
     
 }
 
-#logo_label1{
-    font-size: xx-large;
+#logo_label_1{
+    font-family:Arial Black, Arial Black, Gadget, sans-serif;
+    font-size: 35px;
     color: #000080;
     font-weight: bold;
     padding-top: 30px;
+   margin-left: 175px;
     
+}
+#logo_label_2{
+    font-family:Arial Black, Arial Black, Gadget, sans-serif;
+    font-size: 14px;
+    color: #FCA800;
+    margin-left: 180px;
+    margin-top: -4px;
+}
+
+#left_content{
+    width: 750px;
+    height: 100px;
+    float: left;
+
+
+    
+}
+
+#right_content{
+    
+    width: 210px;
+    height: 100px;
+    /*background-color: #9B410E;*/
+    float: left;
+
+}
+
+.menu_div ul{
+    padding:0px;
+    margin:0px;
+    margin-right: 10px;
+    margin-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color:#FFF;
+    list-style:none;
+    text-indent:15px;
+}
+.menu_div ul li{
+    background:#184678;
+    line-height:28px;
+    border-bottom:1px solid #333;
+}
+.menu_div ul li a{
+    text-decoration:none;
+    color:#FFF;
+    display:block;
+}
+.menu_div ul li a:hover{
+    background:#FCA800;
+    color: #184678;
+}
+
+.menu_div ul li:hover{
+    border-color: #184678;
+}
+.menu_div ul li#active{
+    background-color:#FCA800;
+}
+#areaRis_link{
+    color: #184678;
+}
+
+.menu_div ul li ul{
+    margin: 5px 0 0 4px;
+
+}
+
+.menu_div ul li ul li{
+       background-color: #1C528D;
+        padding-left: 8px;
+        
+}
+
+.menu_div ul li ul li a{
+            background: url("../imageintro/icon_menu.gif") no-repeat center left;
+}
+
+.menu_div ul li ul li:hover{
+     border-right: solid 4px #F3AD28;
+}
+
+.menu_div ul li ul li a:hover{
+     color:#FFF ;
+     background: url("../imageintro/icon_menu.gif") no-repeat center left;
 }
