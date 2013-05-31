@@ -288,7 +288,7 @@ display: block;
         overflow: hidden;
 }           
 
-#last_column { 
+.last_column { 
         border-right: none;
         width: 200px;
 
@@ -299,14 +299,14 @@ display: block;
     
 }
 
-#first_row{
+.first_row{
     
     color: #E39700;
 
     
 }
 
-#first_row div{
+.first_row div{
 
   font-weight: bold;
   font-size: 14px;
@@ -318,7 +318,7 @@ display: block;
     
 }
 
-#last_column img{
+.last_column img{
     
     margin-left: 10px;
     margin-right: 4px;
@@ -356,7 +356,7 @@ display: block;
     
 }
 
-#first_row:hover{
+.first_row:hover{
     
     cursor: pointer;
     background:none;
