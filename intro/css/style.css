@@ -264,6 +264,16 @@ display: block;
     border: 1px solid #CCCCCC;
     border-collapse: collapse;
 
+      /* First we need to help some browsers along for this to work.
+     Just because a vendor prefix is there, doesn't mean it will
+     work in a browser made by that vendor either, it's just for
+     future-proofing purposes I guess. */
+  -o-transition:.8s;
+  -ms-transition:.8s;
+  -moz-transition:.8s;
+  -webkit-transition:.8s;
+  /* ...and now for the proper property */
+  transition:.8s;
    
 
 }
@@ -337,6 +347,20 @@ display: block;
 
 #arrowDown{
     margin-right: 5px;    
+}
+
+.board_row:hover {
+    
+    cursor: pointer;
+    background-color: #FCA800;
+    
+}
+
+#first_row:hover{
+    
+    cursor: pointer;
+    background:none;
+    
 }
 
 /* FINE CSS SU BOARD */
