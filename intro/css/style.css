@@ -220,9 +220,10 @@ display: block;
 #contenitoreTemplateVariabile{
     display: block;
     border: 1px solid #ccc;
-        width: 95%;
+    width: 95%;
     margin: 0 auto;
     height: 800px;
+    background-color: #E6E6E6;
 }
 
 /* INIZIO CSS SU STYLE POST */
@@ -234,3 +235,110 @@ display: block;
     background-color: #F3AD28;
 }
 /* FINE CSS SU STYLE POST */
+
+/* INIZIO CSS SU BOARD */
+
+#board_table,
+.board_row,
+.board_column {
+    margin: 0; padding: 0; border: 0;    border-collapse: collapse;
+}
+
+#board_table { 
+    display: table; width: 98%;
+    margin: 10px auto;
+    border: 1px solid #CCCCCC;   
+        border-collapse: collapse;
+        background-color: #FFF;
+}
+
+.noLinkStyle{
+    text-decoration: none;
+    color: #E39700 ;
+}
+
+.board_row { 
+    clear: both; 
+    display: table-row;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+
+   
+
+}
+.board_column { 
+    /*float: left;*/ 
+    width: auto; 
+    display: table-cell;
+        border-right: 1px solid #CCCCCC;
+        padding-left: 5px;
+        padding: 10px 0 10px 10px;
+        max-height: 15px;
+        overflow: hidden;
+}           
+
+#last_column { 
+        border-right: none;
+        width: 200px;
+
+}
+
+#empty_field{
+    width: 50px;
+    
+}
+
+#first_row{
+    
+    color: #E39700;
+
+    
+}
+
+#first_row div{
+
+  font-weight: bold;
+  font-size: 14px;
+    
+}
+
+#command_field{
+    width: 100px;
+    
+}
+
+#last_column img{
+    
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+#last_column a{
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+#select_all {
+    background-color: #FFF;
+    width: 696px;;
+    position: absolute;
+        border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+}
+
+#select_all a{
+    font-size: 13px;
+    color:#E39700 ;
+    text-decoration: none;
+    
+}
+
+#arrowDown{
+    margin-right: 5px;    
+}
+
+/* FINE CSS SU BOARD */
+
+
