@@ -365,7 +365,18 @@ display: block;
     
 }
 
-
+#newPost{
+    width: 80px;
+    height: 29px;
+    margin: 10px auto;
+}
+#creanNuovoPost{
+    border: none;
+    width: 80px;
+    height: 29px;
+    background:url(../imageintro/submit.png) no-repeat;
+    cursor: pointer;
+}
 
 /* FINE CSS SU BOARD */
 
@@ -469,3 +480,21 @@ display: block;
  }
  
 /* FINE CSS SU STYLE POST */
+
+/*INIZIO STYLE GESTIONE UTENTI */
+.newButton{
+    display: block;
+}
+#newUtente{
+    width: 80px;
+    height: 29px;
+    margin: 10px auto;
+}
+#creanNuovoUtente{
+    border: none;
+    width: 80px;
+    height: 29px;
+    background:url(../imageintro/submit.png) no-repeat;
+    cursor: pointer;
+}
+/*FINE STYLE GESTIONE UTENTI */
