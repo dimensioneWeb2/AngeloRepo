@@ -210,7 +210,7 @@ display: block;
 #contentPageTitle{
     color: #000080;
     font-family: Verdana,Arial Black,Arial Black,Gadget,sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     width: 95%;
     margin: 0 auto;
     margin-top: 10px;
@@ -366,7 +366,7 @@ display: block;
 }
 
 #newPost{
-    width: 80px;
+    width: 150px;
     height: 29px;
     margin: 10px auto;
 }
@@ -486,7 +486,7 @@ display: block;
     display: block;
 }
 #newUtente{
-    width: 80px;
+    width: 150px;
     height: 29px;
     margin: 10px auto;
 }
@@ -498,3 +498,102 @@ display: block;
     cursor: pointer;
 }
 /*FINE STYLE GESTIONE UTENTI */
+
+/* INIZIO STYLE INSERT_USER */
+
+#insert_user{
+    width: 95%;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.req{
+    color: #dd2c0d;
+    
+    
+}
+
+.iu_label{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.field{
+    margin-left: 15px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#iu_nome, #iu_cognome{
+    width: 85px;
+    color: #184678;
+}
+
+#iu_email{
+    width: 300px;
+    color: #184678;
+}
+
+#insert_user span label{
+    color: #A5A5A5;
+    font-size: 14px;
+    
+    
+}
+
+.iu_container{
+     border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px; 
+    
+}
+
+#iu_ruolo{
+    width: 300px;
+    color: #184678;
+    
+}
+
+#iu_submit{
+    background: url("../imageintro/submit.png") no-repeat;
+    width: 80px;
+    height:30px;
+}
+
+.iu_submit {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23) );
+	background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	color:#333333;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffee66;
+}.iu_submit:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64) );
+	background:-moz-linear-gradient( center top, #ffab23 5%, #ffec64 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64');
+	background-color:#ffab23;
+}.iu_submit:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* FINE CSS SU STYLE INSERT_USER */

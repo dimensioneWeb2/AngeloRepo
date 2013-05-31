@@ -2,7 +2,7 @@
 <div class="newButton">
     
     <form id="newPost" action="default.php" method="post">
-        <input type="submit" id="creanNuovoPost" value="crea post"/>
+       <a href="#" class="iu_submit"> Inserire Post </a>
     </form>
 </div>
 

@@ -1,7 +1,7 @@
 <form id="insert_user" method="post" action="default.php">
 <div class="iu_container"> 
     <label class="iu_label">
-        Utente
+        Anagrafica
         <span class="req">*</span>
     </label>
     <span>

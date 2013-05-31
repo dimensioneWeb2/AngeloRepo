@@ -2,7 +2,7 @@
 <div class="newButton">
     
     <form id="newUtente" action="default.php" method="post">
-        <input type="submit" id="creanNuovoUtente" value="crea utente"/>
+        <a href="#" class="iu_submit"> Crea Utente </a>
     </form>
 </div>
 
