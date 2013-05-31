@@ -222,9 +222,19 @@ display: block;
     border: 1px solid #ccc;
     width: 95%;
     margin: 0 auto;
+    height: auto;
     background-color: #E6E6E6;
 }
 
+/* INIZIO CSS SU STYLE POST */
+
+#postContainer{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+/* FINE CSS SU STYLE POST */
 
 /* INIZIO CSS SU BOARD */
 
@@ -290,14 +300,14 @@ display: block;
     
 }
 
-.first_row{
+#first_row{
     
     color: #E39700;
 
     
 }
 
-.first_row div{
+#first_row div{
 
   font-weight: bold;
   font-size: 14px;
@@ -323,10 +333,11 @@ display: block;
 
 #select_all {
     background-color: #FFF;
-    width: 696px;;
+    width: 686px;;
     position: absolute;
-        border: 1px solid #CCCCCC;
+    border: 1px solid #CCCCCC;
     border-collapse: collapse;
+  
 }
 
 #select_all a{
@@ -347,17 +358,19 @@ display: block;
     
 }
 
-.first_row:hover{
+#first_row:hover{
     
     cursor: pointer;
-    background:none;
+    background:none !important;
     
 }
+
+
 
 /* FINE CSS SU BOARD */
 
 
-/* INIZIO CSS SU STYLE POST */
+ /* INIZIO CSS SU STYLE POST */
 
 #postContainer{
     display: block;
@@ -369,14 +382,14 @@ display: block;
 #postDescription{
     padding: 10px 5px;
     color: #000080;
-    font-family: Verdana,Arial Black,Arial Black,Gadget,sans-serif;
-    font-size: 15px;
+    font-family: Arial Black,Arial Black,Gadget,sans-serif;
+    font-size: 17px;
 
 }
 
 .postFONT{
     color: #000080;
-    font-family: Verdana,Arial Black,Arial Black,Gadget,sans-serif;
+    font-family: Arial Black,Arial Black,Gadget,sans-serif;
     font-size: 17px;
     padding-left: 10px;
 }
@@ -395,7 +408,7 @@ display: block;
     display: block;
     height: 32px;
     color: #000080;
-    font-family: Verdana,Arial Black,Arial Black,Gadget,sans-serif;
+    font-family: Arial Black,Arial Black,Gadget,sans-serif;
     font-size: 17px;
     border-bottom:2px solid #ccc;
     margin-bottom: 10px;
