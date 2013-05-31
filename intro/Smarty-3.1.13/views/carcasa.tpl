@@ -29,7 +29,19 @@
                 <div id="inner_inner_container">
                 
                     <div id="left_content">
-                    
+                        <div id="breadcrumb">
+                            <ul id="crumbs">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Area Riservata</a></li>
+                            <li>Board</li>
+                            </ul>
+                        </div>
+                        <div id="contentPageTitle">
+                        Board
+                        </div>
+                        <div id="contenitoreTemplateVariabile">
+                            {include file="{$templateIncluso}"}
+                        </div>
                     </div>
                     
                     <div id="right_content"> 

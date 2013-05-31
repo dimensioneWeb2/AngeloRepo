@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-05-30 20:19:56
+<?php /* Smarty version Smarty-3.1.13, created on 2013-05-31 07:04:45
          compiled from "Smarty-3.1.13\views\carcasa.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1251751a746b56204f5-04207919%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5a5df4ea7f2155987499133ab58de14c661dde45' => 
     array (
       0 => 'Smarty-3.1.13\\views\\carcasa.tpl',
-      1 => 1369945194,
+      1 => 1369983794,
       2 => 'file',
     ),
   ),
@@ -17,6 +17,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'version' => 'Smarty-3.1.13',
   'unifunc' => 'content_51a746b567eac0_31074165',
+  'variables' => 
+  array (
+    'templateIncluso' => 0,
+  ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_51a746b567eac0_31074165')) {function content_51a746b567eac0_31074165($_smarty_tpl) {?><?php echo '<?xml';?> version="1.0" encoding="ISO-8859-1"<?php echo '?>';?>
@@ -51,7 +55,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <div id="inner_inner_container">
                 
                     <div id="left_content">
-                    
+                        <div id="breadcrumb">
+                            <ul id="crumbs">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Area Riservata</a></li>
+                            <li>Board</li>
+                            </ul>
+                        </div>
+                        <div id="contentPageTitle">
+                        Board
+                        </div>
+                        <div id="contenitoreTemplateVariabile">
+                            <?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['templateIncluso']->value), $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
+                        </div>
                     </div>
                     
                     <div id="right_content"> 

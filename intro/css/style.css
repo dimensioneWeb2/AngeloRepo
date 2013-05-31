@@ -7,16 +7,15 @@
 */
 
 body { 
-    width: 100%;
+    display: block;
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
+   background-color: #ccc;
 }
 
 #container{
-    width: 100%;
-    background-color: #ccc;
-    height: 500px;
+    display: block;
+    
 
 
 }
@@ -25,9 +24,12 @@ body {
 #inner_container{
     width: 960px;
     background-color: #fff;
-    height: 400px;
     margin: 0 auto;
+    margin-bottom: 30px;
+}
 
+#inner_inner_container{
+    display: block;
     
 }
 
@@ -78,20 +80,23 @@ display: block;
 }
 
 #left_content{
+    /* width: 750px;*/
+    display: inline-block;
     width: 750px;
-    height: 100px;
-    float: left;
+    
+    /*float: left;*/
 
-
+    margin-bottom: 30px;
     
 }
 
 #right_content{
-    
+    float: right;
     width: 210px;
-    height: 100px;
-    /*background-color: #9B410E;*/
-    float: left;
+    
+    /*background-color: #9B410E;
+    float: left;*/
+    
 
 }
 
@@ -153,4 +158,69 @@ display: block;
 .menu_div ul li ul li a:hover{
      color:#FFF ;
      background: url("../imageintro/icon_menu.gif") no-repeat center left;
+}
+/* INIZIO BREADCRUMBS*/
+
+#breadcrumb{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+    ul, li {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    }
+
+    #crumbs {
+    border:1px solid #dedede;
+    height:2.3em;
+    }
+
+    
+    #crumbs li {
+    float:left;
+    line-height:2.3em;
+    padding-left:.75em;
+    color:#777;
+    }
+
+    
+    #crumbs li a {
+    display:block;
+    padding:0 15px 0 0;
+    background:url(../imageintro/crumbs.gif) no-repeat right center;
+    }
+
+    #crumbs li a:link, #crumbs li a:visited {
+    text-decoration:none;
+    color:#777;
+    }
+
+    #crumbs li a:hover, #crumbs li a:focus {
+    color:#dd2c0d;
+    }
+
+
+/*FINE BREADCRUMBS*/
+
+#contentPageTitle{
+    color: #000080;
+    font-family: Arial Black,Arial Black,Gadget,sans-serif;
+    font-size: 30px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+#contenitoreTemplateVariabile{
+    display: block;
+    border: 1px solid #ccc;
+        width: 95%;
+    margin: 0 auto;
+    height: 800px;
 }
