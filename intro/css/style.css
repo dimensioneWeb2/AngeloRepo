@@ -224,3 +224,13 @@ display: block;
     margin: 0 auto;
     height: 800px;
 }
+
+/* INIZIO CSS SU STYLE POST */
+
+#postContainer{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #F3AD28;
+}
+/* FINE CSS SU STYLE POST */

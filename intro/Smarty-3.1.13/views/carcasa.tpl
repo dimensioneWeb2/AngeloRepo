@@ -31,13 +31,21 @@
                     <div id="left_content">
                         <div id="breadcrumb">
                             <ul id="crumbs">
+                              <!--
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Area Riservata</a></li>
-                            <li>Board</li>
+                            <li>Board</li> -->
+                            
+                            {foreach from=$breadcrumbs item=curr_breadcrumb}
+                                   <li><a href="{$curr_breadcrumb.href}">{$curr_breadcrumb.nome}</a></li>
+                            {/foreach}
+                            <li>{$last_breadcrumb.nome}</li>
+                            
+                            
                             </ul>
                         </div>
                         <div id="contentPageTitle">
-                        Board
+                            {$titoloContenuto}
                         </div>
                         <div id="contenitoreTemplateVariabile">
                             {include file="{$templateIncluso}"}
