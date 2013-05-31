@@ -382,14 +382,14 @@ display: block;
 #postDescription{
     padding: 10px 5px;
     color: #000080;
-    font-family: Arial Black,Arial Black,Gadget,sans-serif;
+    font-family: Verdana,Arial Black,Arial Black,Gadget,sans-serif;
     font-size: 17px;
 
 }
 
 .postFONT{
     color: #000080;
-    font-family: Arial Black,Arial Black,Gadget,sans-serif;
+    font-family: Verdana,Arial Black,Arial Black,Gadget,sans-serif;
     font-size: 17px;
     padding-left: 10px;
 }
@@ -408,7 +408,7 @@ display: block;
     display: block;
     height: 32px;
     color: #000080;
-    font-family: Arial Black,Arial Black,Gadget,sans-serif;
+    font-family: Verdana,Arial Black,Arial Black,Gadget,sans-serif;
     font-size: 17px;
     border-bottom:2px solid #ccc;
     margin-bottom: 10px;
