@@ -233,94 +233,135 @@ display: block;
 
    
 }
-
-#postDescription{
-    padding: 10px 5px;
-    color: #000080;
-    font-family: Arial Black,Arial Black,Gadget,sans-serif;
-    font-size: 17px;
-
-}
-
-.postFONT{
-    color: #000080;
-    font-family: Arial Black,Arial Black,Gadget,sans-serif;
-    font-size: 17px;
-    padding-left: 10px;
-}
-
-#postDescription:first-letter {
-    text-transform: uppercase;
-}
-
-#AllegatiContainer{
-    display: block;
-    margin-top: 10px;
-    height: 200px;
-}
-
-#AllegatiContainerTitle{
-    display: block;
-    height: 32px;
-    color: #000080;
-    font-family: Arial Black,Arial Black,Gadget,sans-serif;
-    font-size: 17px;
-    border-bottom:2px solid #ccc;
-    margin-bottom: 10px;
-}
-
-#AllegatiContainerTitle2{
-    line-height: 32px;
-    vertical-align: middle;
-}
-
-#AllegatiContainerTitleIcon{
-    float: left;
-    width: 32px;
-    height: 32px;
-     background:url(../imageintro/attach.png) no-repeat;
-}
-
-.allegato{
-    display: block;
-    width: 98%;
-    height: 30px;
-    margin: 10px auto;
-    background-color: #FFD47E;
-    border:2px solid #ccc;
-}
-
-.allegatoNome,.allegatoSize,.allegatoVolteScaricato,.allegatoRimuovi{
-    float: left;
-}
-
-.allegatoNome{
-    width: 35%;
-    line-height: 30px;
-    vertical-align: middle;
-    background:url(../imageintro/DownloadIcon.png) no-repeat;
-    background-position: left;
-    padding-left: 20px;
-}
-.allegatoSize{
-    width: 15%;
-    line-height: 30px;
-    vertical-align: middle;
-}
-
- .allegatoVolteScaricato{
-    width: 20%;
-    line-height: 30px;
-    vertical-align: middle;
- }
- 
- .allegatoRimuovi{
-    width: 20%;
-    line-height: 30px;
-    vertical-align: middle;
-    background:url(../imageintro/cross-small.png) no-repeat;
-    background-position: left;
-    padding-left: 20px;
- }
- 
 /* FINE CSS SU STYLE POST */
+
+/* INIZIO CSS SU BOARD */
+
+#board_table,
+.board_row,
+.board_column {
+    margin: 0; padding: 0; border: 0;    border-collapse: collapse;
+}
+
+#board_table { 
+    display: table; width: 98%;
+    margin: 10px auto;
+    border: 1px solid #CCCCCC;   
+        border-collapse: collapse;
+        background-color: #FFF;
+}
+
+.noLinkStyle{
+    text-decoration: none;
+    color: #E39700 ;
+}
+
+.board_row { 
+    clear: both; 
+    display: table-row;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+
+      /* First we need to help some browsers along for this to work.
+     Just because a vendor prefix is there, doesn't mean it will
+     work in a browser made by that vendor either, it's just for
+     future-proofing purposes I guess. */
+  -o-transition:.8s;
+  -ms-transition:.8s;
+  -moz-transition:.8s;
+  -webkit-transition:.8s;
+  /* ...and now for the proper property */
+  transition:.8s;
+   
+
+}
+.board_column { 
+    /*float: left;*/ 
+    width: auto; 
+    display: table-cell;
+        border-right: 1px solid #CCCCCC;
+        padding-left: 5px;
+        padding: 10px 0 10px 10px;
+        max-height: 15px;
+        overflow: hidden;
+}           
+
+.last_column { 
+        border-right: none;
+        width: 200px;
+
+}
+
+#empty_field{
+    width: 50px;
+    
+}
+
+.first_row{
+    
+    color: #E39700;
+
+    
+}
+
+.first_row div{
+
+  font-weight: bold;
+  font-size: 14px;
+    
+}
+
+#command_field{
+    width: 100px;
+    
+}
+
+.last_column img{
+    
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+#last_column a{
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+#select_all {
+    background-color: #FFF;
+    width: 696px;;
+    position: absolute;
+        border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+}
+
+#select_all a{
+    font-size: 13px;
+    color:#E39700 ;
+    text-decoration: none;
+    
+}
+
+#arrowDown{
+    margin-right: 5px;    
+}
+
+.board_row:hover {
+    
+    cursor: pointer;
+    background-color: #FCA800;
+    
+}
+
+.first_row:hover{
+    
+    cursor: pointer;
+    background:none;
+    
+}
+
+/* FINE CSS SU BOARD */
+
+
