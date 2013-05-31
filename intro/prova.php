@@ -11,7 +11,7 @@ $breadcrumbsArray = array();
 $breadcrumbsArray[0] = array("href"=>"http://www.google.it","nome"=>"home");
 $breadcrumbsArray[1] = array("href"=>"http://www.google.it","nome"=>"board");
 $smarty->assign("breadcrumbs", $breadcrumbsArray);
-$smarty->assign("last_breadcrumb", array("nome"=>"Post"));
+$smarty->assign("last_breadcrumb", array("nome"=>"Nome Post"));
 //fine impostazione breadcrumb
 
 // setto titolo del contenuto

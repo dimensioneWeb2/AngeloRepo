@@ -220,9 +220,9 @@ display: block;
 #contenitoreTemplateVariabile{
     display: block;
     border: 1px solid #ccc;
-        width: 95%;
+    width: 95%;
     margin: 0 auto;
-    height: 800px;
+    background-color: #E6E6E6;
 }
 
 /* INIZIO CSS SU STYLE POST */
@@ -230,7 +230,97 @@ display: block;
 #postContainer{
     display: block;
     width: 100%;
-    height: 100%;
-    background-color: #F3AD28;
+
+   
 }
+
+#postDescription{
+    padding: 10px 5px;
+    color: #000080;
+    font-family: Arial Black,Arial Black,Gadget,sans-serif;
+    font-size: 17px;
+
+}
+
+.postFONT{
+    color: #000080;
+    font-family: Arial Black,Arial Black,Gadget,sans-serif;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+#postDescription:first-letter {
+    text-transform: uppercase;
+}
+
+#AllegatiContainer{
+    display: block;
+    margin-top: 10px;
+    height: 200px;
+}
+
+#AllegatiContainerTitle{
+    display: block;
+    height: 32px;
+    color: #000080;
+    font-family: Arial Black,Arial Black,Gadget,sans-serif;
+    font-size: 17px;
+    border-bottom:2px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#AllegatiContainerTitle2{
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+#AllegatiContainerTitleIcon{
+    float: left;
+    width: 32px;
+    height: 32px;
+     background:url(../imageintro/attach.png) no-repeat;
+}
+
+.allegato{
+    display: block;
+    width: 98%;
+    height: 30px;
+    margin: 10px auto;
+    background-color: #FFD47E;
+    border:2px solid #ccc;
+}
+
+.allegatoNome,.allegatoSize,.allegatoVolteScaricato,.allegatoRimuovi{
+    float: left;
+}
+
+.allegatoNome{
+    width: 35%;
+    line-height: 30px;
+    vertical-align: middle;
+    background:url(../imageintro/DownloadIcon.png) no-repeat;
+    background-position: left;
+    padding-left: 20px;
+}
+.allegatoSize{
+    width: 15%;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+ .allegatoVolteScaricato{
+    width: 20%;
+    line-height: 30px;
+    vertical-align: middle;
+ }
+ 
+ .allegatoRimuovi{
+    width: 20%;
+    line-height: 30px;
+    vertical-align: middle;
+    background:url(../imageintro/cross-small.png) no-repeat;
+    background-position: left;
+    padding-left: 20px;
+ }
+ 
 /* FINE CSS SU STYLE POST */
