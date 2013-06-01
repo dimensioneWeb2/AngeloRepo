@@ -29,6 +29,7 @@ body {
 }
 
 #inner_inner_container{
+    position: relative;
     display: block;
     
 }
@@ -91,7 +92,9 @@ display: block;
 }
 
 #right_content{
-    float: right;
+    position: absolute;
+    top : 0;
+    right:  0;
     width: 210px;
     
     /*background-color: #9B410E;
@@ -99,7 +102,6 @@ display: block;
     
 
 }
-
 .menu_div ul{
     padding:0px;
     margin:0px;
@@ -654,7 +656,16 @@ display: block;
 
 #login_form h1{
     color: #FFF;
-    
-}
+    font-size: 20px;
+    font-family: Verdana;
+    }
 
-/**/
+/* INVIO MESSAGGIO*/
+    #messaggioEmail{
+        width: 430px;
+        height: 200px;
+    }
+    .bold{
+    font-weight: bold;
+}
+/* FINE INVIO MESSAGGIO*/

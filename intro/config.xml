@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<root>
+    
+    <!-- Dati necessari per la connessione di default fatta nel caso in cui al interno del programma non venga
+    detto diversamente-->
+    
+    <database>angelodatabase</database>
+    <host>localhost</host>
+    <password></password>
+    <username>root</username>
+
+</root>
