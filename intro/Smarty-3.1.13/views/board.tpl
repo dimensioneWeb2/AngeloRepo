@@ -1,9 +1,9 @@
 
 <div class="newButton">
     
-    <form id="newPost" action="default.php" method="post">
+    <div id="newPost">
        <a href="#" class="iu_submit"> Inserire Post </a>
-    </form>
+    </div>
 </div>
 
 <!--

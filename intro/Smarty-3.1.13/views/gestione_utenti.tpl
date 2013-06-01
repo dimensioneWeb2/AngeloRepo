@@ -1,9 +1,8 @@
-
 <div class="newButton">
     
-    <form id="newUtente" action="default.php" method="post">
+    <div id="newUtente">
         <a href="#" class="iu_submit"> Crea Utente </a>
-    </form>
+    </div>
 </div>
 
 <!--
