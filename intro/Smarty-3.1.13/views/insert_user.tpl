@@ -21,17 +21,7 @@
         <input id="iu_email" name="iu_email" type="text" class="field" />
 
 </div>
-<div class="iu_container"> 
-    <label class="iu_label">
-        Ruolo
-        <span class="req">*</span>
-    </label>
-        <select id="iu_ruolo" name="iu_ruolo" class="field" >
-        <option value="utente"> utente semplice </option>
-        <option value="amministratore"> amministratore </option>
-        </select>
-    
-</div>   
+  
 <div class="iu_container">     
     <a href="#" class="iu_submit"> Inserire Utente </a>
 </div>    

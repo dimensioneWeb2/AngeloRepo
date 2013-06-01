@@ -597,3 +597,64 @@ display: block;
 
 
 /* FINE CSS SU STYLE INSERT_USER */
+
+/*INIZIO CSS SU LOGIN */
+
+#login_container{
+
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50PX;
+    background: #FFF;
+    width: 600px; 
+    padding: 80px;
+    
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    
+}
+
+#login_form{
+    width: 500px;
+    margin: 0 auto;
+    background: #184678;
+    padding: 25px;
+    overflow: hidden;
+    padding-top: 10px;
+ 
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+#header2{
+
+    margin-top: -60px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+    
+}
+
+#login_form input{
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+    width: 480px;
+    color: #F0A800;
+    margin-bottom: 10px;
+    
+    
+}
+
+#login_form label{
+    color: #FFF;
+    
+}
+
+#login_form h1{
+    color: #FFF;
+    
+}
+
+/**/
