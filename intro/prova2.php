@@ -18,6 +18,11 @@ $titoloContent = "Board";
 $smarty->assign("titoloContenuto", $titoloContent);
 // fine titolo contenuto
 
+// setto titolo della pagina
+$titoloPagina = "Board entries";
+$smarty->assign("titoloPagina", $titoloPagina);
+// fine titolo pagina
+
 // display della carcasa
 $smarty->display("carcasa.tpl");
 

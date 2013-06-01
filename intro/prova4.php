@@ -18,6 +18,11 @@ $smarty->assign("last_breadcrumb", array("nome"=>"inserire utente"));
 $titoloContent = "Inserire Utente";
 $smarty->assign("titoloContenuto", $titoloContent);
 // fine titolo contenuto
+// 
+// setto titolo della pagina
+$titoloPagina = "Inserimento Utente";
+$smarty->assign("titoloPagina", $titoloPagina);
+// fine titolo pagina
 
 // display della carcasa
 $smarty->display("carcasa.tpl");

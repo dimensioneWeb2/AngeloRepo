@@ -19,6 +19,11 @@ $titoloContent = "Scrivere messaggio";
 $smarty->assign("titoloContenuto", $titoloContent);
 // fine titolo contenuto
 
+// setto titolo della pagina
+$titoloPagina = "Contatta Utente";
+$smarty->assign("titoloPagina", $titoloPagina);
+// fine titolo pagina
+
 // display della carcasa
 $smarty->display("carcasa.tpl");
 
