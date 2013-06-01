@@ -12,6 +12,7 @@
 
 -->
 
+
 <form id="board" action="default.php" method="post">
 
 <div id="board_table">
@@ -22,64 +23,16 @@
         <div id= "last_column" class="board_column">&nbsp;</div>
     </div>
     
+{foreach $entries as $entry}    
+    
         <div class="board_row">
             <div class="board_column empty_field">  <input type="checkbox"/> </div>
-            <div class="board_column">Documento ufficiale 23-4</div>
-            <div class="board_column">35/05/2013</div>
+            <div class="board_column">{$entry->titolo}</div>
+            <div class="board_column">{$entry->data_creazione|date_format:"%d/%m/%y "}</div>
             <div class="board_column last_column"><img alt="ss" src="imageintro/editIconOver.png"/><a href="#" title="modifica">Modifica</a><img alt="ss"  src="imageintro/cross-small.png"/><a href="#" title="elimina">Elimina</a></div>
 
         </div> 
-   
-        <div class="board_row">
-            <div class="board_column empty_field">  <input type="checkbox"/> </div>
-            <div class="board_column">Documento ufficiale 23-4</div>
-            <div class="board_column">35/05/2013</div>
-            <div class="board_column last_column"><img alt="ss" src="imageintro/editIconOver.png"/><a href="#" title="modifica">Modifica</a><img alt="ss"  src="imageintro/cross-small.png"/><a href="#" title="elimina">Elimina</a></div>
-
-        </div> 
-        <div class="board_row">
-            <div class="board_column empty_field">  <input type="checkbox"/> </div>
-            <div class="board_column">Documento ufficiale 23-4</div>
-            <div class="board_column">35/05/2013</div>
-            <div class="board_column last_column"><img alt="ss" src="imageintro/editIconOver.png"/><a href="#" title="modifica">Modifica</a><img alt="ss"  src="imageintro/cross-small.png"/><a href="#" title="elimina">Elimina</a></div>
-
-        </div> 
-        <div class="board_row">
-            <div class="board_column empty_field">  <input type="checkbox"/> </div>
-            <div class="board_column">Documento ufficiale 23-4</div>
-            <div class="board_column">35/05/2013</div>
-            <div class="board_column last_column"><img alt="ss" src="imageintro/editIconOver.png"/><a href="#" title="modifica">Modifica</a><img alt="ss"  src="imageintro/cross-small.png"/><a href="#" title="elimina">Elimina</a></div>
-
-        </div> 
-        <div class="board_row">
-            <div class="board_column empty_field">  <input type="checkbox"/> </div>
-            <div class="board_column">Documento ufficiale 23-4</div>
-            <div class="board_column">35/05/2013</div>
-            <div class="board_column last_column"><img alt="ss" src="imageintro/editIconOver.png"/><a href="#" title="modifica">Modifica</a><img alt="ss"  src="imageintro/cross-small.png"/><a href="#" title="elimina">Elimina</a></div>
-
-        </div>     
-        <div class="board_row">
-            <div class="board_column empty_field">  <input type="checkbox"/> </div>
-            <div class="board_column">Documento ufficiale 23-4</div>
-            <div class="board_column">35/05/2013</div>
-            <div class="board_column last_column"><img alt="ss" src="imageintro/editIconOver.png"/><a href="#" title="modifica">Modifica</a><img alt="ss"  src="imageintro/cross-small.png"/><a href="#" title="elimina">Elimina</a></div>
-
-        </div> 
-        <div class="board_row">
-            <div class="board_column empty_field">  <input type="checkbox"/> </div>
-            <div class="board_column">Documento ufficiale 23-4</div>
-            <div class="board_column">35/05/2013</div>
-            <div class="board_column last_column"><img alt="ss" src="imageintro/editIconOver.png"/><a href="#" title="modifica">Modifica</a><img alt="ss"  src="imageintro/cross-small.png"/><a href="#" title="elimina">Elimina</a></div>
-
-        </div> 
-        <div class="board_row">
-            <div class="board_column empty_field">  <input type="checkbox"/> </div>
-            <div class="board_column">Documento ufficiale 23-4</div>
-            <div class="board_column">35/05/2013</div>
-            <div class="board_column last_column"><img alt="ss" src="imageintro/editIconOver.png"/><a href="#" title="modifica">Modifica</a><img alt="ss"  src="imageintro/cross-small.png"/><a href="#" title="elimina">Elimina</a></div>
-
-        </div> 
-
+{/foreach}   
     
     <div id="select_all"> <img alt="ss" src="imageintro/arrow_ltr.png"/> <a href="#" title="seleziona/deseleziona">Seleziona Tutto / Deseleziona Tutto</a> <span style="margin-left: 50px;">se selezionato :</span> <img alt="ss"  src="imageintro/cross-small.png"/><a href="#" title="elimina">Elimina</a></div>
 </div>
