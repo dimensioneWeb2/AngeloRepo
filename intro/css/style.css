@@ -15,11 +15,12 @@ body {
 
 #container{
     display: block;
-    
-
 
 }
 
+.bold{
+    font-weight: bold;
+}
 
 #inner_container{
     width: 960px;
@@ -29,6 +30,7 @@ body {
 }
 
 #inner_inner_container{
+    position: relative;
     display: block;
     
 }
@@ -91,7 +93,9 @@ display: block;
 }
 
 #right_content{
-    float: right;
+    position: absolute;
+    top : 0;
+    right:  0;
     width: 210px;
     
     /*background-color: #9B410E;
@@ -201,7 +205,7 @@ display: block;
     }
 
     #crumbs li a:hover, #crumbs li a:focus {
-    color:#dd2c0d;
+    color:#DD700D;
     }
 
 
@@ -595,5 +599,9 @@ display: block;
 	top:1px;
 }
 
+#messaggioEmail{
+    width: 430px;
+    height: 200px;
+}
 
 /* FINE CSS SU STYLE INSERT_USER */
