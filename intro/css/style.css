@@ -680,13 +680,35 @@ display: block;
 }
 /* FINE INVIO MESSAGGIO*/
 
-/*STYLE ERRORE LOGIN*/
-#erroreLogin{
-    float: right;
-    color: #FFEC64;
-    font-family: Verdana;
-    font-size: 15px;
-    font-weight: bold;
+/* INIZIO OTHERS */
+
+#info_message{
+    
     padding: 10px;
+    background-color: #E0F0FF;
+    border-top: solid 1px #CCCCCC;
+ 
 }
-/*FINE STYLE ERRORE LOGIN*/
+
+
+#info_message img{
+    
+    position: relative;
+    top: 4px;
+
+}
+
+#info_message span{
+    
+    color: #8B8B8B;
+}
+
+#info_message a{
+    
+    text-decoration: none;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #E39700;
+}
+
+/* FINE OTHERS */
