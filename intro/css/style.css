@@ -561,13 +561,11 @@ display: block;
     
 }
 
-#iu_submit{
-    background: url("../imageintro/submit.png") no-repeat;
-    width: 80px;
-    height:30px;
-}
+.iu_submit{
+        background: url("../imageintro/submit.png") no-repeat;
+        width: 80px;
+        height:30px;
 
-.iu_submit {
 	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
 	box-shadow:inset 0px 1px 0px 0px #fff6af;
@@ -649,6 +647,18 @@ display: block;
     
 }
 
+#login_form input[type=submit]{
+
+    color: #333333;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    height: 30px;
+    width: 180px;
+    cursor: pointer;
+}
+
+
 #login_form label{
     color: #FFF;
     
@@ -669,3 +679,14 @@ display: block;
     font-weight: bold;
 }
 /* FINE INVIO MESSAGGIO*/
+
+/*STYLE ERRORE LOGIN*/
+#erroreLogin{
+    float: right;
+    color: #FFEC64;
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+/*FINE STYLE ERRORE LOGIN*/

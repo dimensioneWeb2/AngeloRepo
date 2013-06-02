@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 /********************************************************************************************************************************/
         /*QUESTO REQUIRE è L'UNICO CHE CAMBIERA DA COMPUTER A COMPUTER O DA SERVER A SERVER
          E DOVRA APPARIRE IN TUTTE LE PAGINE*/
@@ -13,17 +13,14 @@ require_once rootPath.'/my_smarty.php';
 
 $smarty = new my_smarty();
 
-
-// setto titolo del contenuto
-$titoloContent = "Inserire Utente";
-$smarty->assign("titoloContenuto", $titoloContent);
-// fine titolo contenuto
-
-// setto titolo della pagina
-$titoloPagina = "Login";
-$smarty->assign("titoloPagina", $titoloPagina);
-// fine titolo pagina
-
-// display della carcasa
-$smarty->display("login.tpl");
+if(!isset($_SESSION['user_id'])){
+    if(isset($_GET['err'])){
+        $smarty->assign('erroreLogin','email o password sbagliata');
+    }
+    $smarty->display("login.tpl");
+}
+else{
+        $url = rootUrl;
+        header("Location:".$url."/board.php"); 
+}
 ?>

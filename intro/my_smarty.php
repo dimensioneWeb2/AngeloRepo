@@ -8,7 +8,7 @@
         
         
         
-	 require_once('Smarty-3.1.13/libs/Smarty.class.php');
+	 require_once(rootPath.'/Smarty-3.1.13/libs/Smarty.class.php');
 	 
  	/**
  	 * MySmarty Class

@@ -23,14 +23,14 @@
                         <div id="logo_label_2"> Consulenza per le innovazioni tecnologiche.</div>
                     </div>
                 </div>
-                <form id="login_form" action="#">
-
+                <form id="login_form" action="event_handler/authentication_handler.php" method="post">
+                    <span id="erroreLogin">{$erroreLogin|default:""}</span>
                     <h1>Autenticazione</h1>
                     <label>Email</label><input type="text" name="login_mail" id="login_mail" />
                     <label>Password</label><input type="password" name="login_password" id="login_password" />
 
-
-                       <a href="#" class="iu_submit"> LOGIN </a>
+                    <input type="submit" name="login_submit" class="iu_submit" value="LOGIN"/>
+                       
 
                 </form>
 
