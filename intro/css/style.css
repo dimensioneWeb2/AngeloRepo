@@ -669,3 +669,36 @@ display: block;
     font-weight: bold;
 }
 /* FINE INVIO MESSAGGIO*/
+
+/* INIZIO OTHERS */
+
+#info_message{
+    
+    padding: 10px;
+    background-color: #E0F0FF;
+    border-top: solid 1px #CCCCCC;
+ 
+}
+
+
+#info_message img{
+    
+    position: relative;
+    top: 4px;
+
+}
+
+#info_message span{
+    
+    color: #8B8B8B;
+}
+
+#info_message a{
+    
+    text-decoration: none;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #E39700;
+}
+
+/* FINE OTHERS */

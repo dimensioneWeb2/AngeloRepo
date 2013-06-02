@@ -3,7 +3,7 @@
 /********************************************************************************************************************************/
         /*QUESTO REQUIRE è L'UNICO CHE CAMBIERA DA COMPUTER A COMPUTER O DA SERVER A SERVER E DOVRA APPARIRE IN TUTTE LE PAGINE*/
         /*INCLUDE UN FILE CON TUTTI I PATH IN MODO TALE DA RENDERE TUTTI GLI ALTRI INCLUDES DELLA PAGINA INDIPENDENTI DAL CONTESTO*/ 
-        require_once 'D:\www\AngeloRepo\intro\path.php';
+         require_once 'C:wamp\www\AngeloRepo\intro\path.php';
        /*FINE REQUIRE DA MODIFICARE*/ 
 /*****************************************************************************************************************************/
  
