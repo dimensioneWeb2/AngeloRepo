@@ -1,7 +1,12 @@
 <?php
 
-
-
+/********************************************************************************************************************************/
+        /*QUESTO REQUIRE è L'UNICO CHE CAMBIERA DA COMPUTER A COMPUTER O DA SERVER A SERVER E DOVRA APPARIRE IN TUTTE LE PAGINE*/
+        /*INCLUDE UN FILE CON TUTTI I PATH IN MODO TALE DA RENDERE TUTTI GLI ALTRI INCLUDES DELLA PAGINA INDIPENDENTI DAL CONTESTO*/ 
+        require_once 'D:\www\AngeloRepo\intro\path.php';
+       /*FINE REQUIRE DA MODIFICARE*/ 
+/*****************************************************************************************************************************/
+ 
 /*
  * classe contenitore di insieme di metodi che sono utili per la connessione e interogazzione del database
  * ---> connetti ()                              ---> serve per collegarsi e selezionare un certo db
@@ -22,7 +27,7 @@ class mysqli_wrapper {
    
  
    public function __construct($database=null,$host=null,$username=null,$password=null) {
-        $config = simplexml_load_file('config.xml');
+        $config = simplexml_load_file(rootPath.'/config.xml');
 
         if( isset ($host,$username,$password,$database) ){
             $this->host=$host;
